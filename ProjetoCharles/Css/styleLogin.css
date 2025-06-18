@@ -1,0 +1,81 @@
+@import url("style.css");
+
+
+#fundo_login{
+    height: 700px;
+}
+
+.login-container{
+    display: grid;
+    place-items: center;
+    background-color: #ffffff8c;
+    padding: 1rem;
+}
+
+.login-container i{
+    font-size: 8rem;
+    color: #ffffff;
+    margin-bottom: 0.1rem;
+}
+
+.login-container h1{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #3b3b3b;
+    margin-bottom: 0.2rem;
+}
+
+.login-container form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.2rem;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.campo{
+    border: none;
+    padding: 0.5rem 6rem 0.5rem 0.5rem;
+    margin-bottom: 0.3rem;
+    background-color: #fff0f0cc;
+
+}
+
+.perdeu-senha{
+padding-bottom: 2rem;
+padding-right:5rem; ;
+color: #3b3b3b;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
+font-size: 0.9rem;
+}
+
+.botao{
+    border: none;
+    background-color: #002847;
+    padding: 0.3rem 5rem;
+    border-radius: 15px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+}
+
+.botao:hover{
+    background-color: #013258;
+    border: 2px solid #838383;
+    cursor: pointer;
+}
+
+.cadastro-bt{
+    color: #070707a1;
+    font-size: 1rem;
+    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
+font-weight: 700;
+}
+
+.cadastro-bt:hover{
+    color: #222222;
+    cursor: pointer;
+}

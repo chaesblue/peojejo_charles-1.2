@@ -1,0 +1,20 @@
+@import url(style.css);
+@import url(styleLogin.css);
+
+#fundo_cadstro{
+    height: 900px;
+}
+
+.botao_cadastro{
+    margin-top: 2rem;
+}
+
+.conatos_container{
+    display: grid;
+    place-items: center;
+}
+
+.contato{
+    display: flex;
+    flex-direction: row;
+}
